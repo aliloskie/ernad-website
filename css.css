@@ -1,0 +1,49 @@
+.gradient-background {
+    background: linear-gradient(300deg, #C5FFF8, #5FBDFF, #7B66FF) !important;
+    background-size: 180% 180% !important;
+    animation: gradient-animation 18s ease infinite !important;
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50% !important;
+    }
+    50% {
+      background-position: 100% 50% !important;
+    }
+    100% {
+      background-position: 0% 50% !important;
+    }
+  }
+
+  .firstpage {height: 100vh;}
+  .img1 {height: auto;}
+  #myname {font-family: 'Chakra Petch', sans-serif; word-spacing: 3px; font-weight: bolder; letter-spacing: 2px;}
+  #iam {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 200;}
+  .krug {height: 150px; border-radius: 50%; margin-top: 15px; margin-bottom: 5px;  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;}
+  .opis {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+  .opis>* {text-align: center;}
+  .opis>h2 {font-family: Arial, Helvetica, sans-serif; font-size: 3.5rem; font-weight: 600; color: #5FBDFF;}
+  .opis>p {font-family: Arial, Helvetica, sans-serif; font-size: 1.2rem; font-weight: 300; color: #7B66FF; margin: auto;}
+  hr {border: dotted !important; color: #0777c7 !important; margin: 100px !important; border-bottom: none !important;}
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+.skills {font-family: Arial, Helvetica, sans-serif; font-size: 3.5rem; font-weight: 600; color: #5FBDFF !important; text-align: center;}
+.skills1 {font-family: Arial, Helvetica, sans-serif; font-size: 1.2rem; font-weight: 300; color: #7B66FF !important; }
+.check {width: 2.1rem !important ; height: 2.1rem !important;}
+.kutiice {background-color:#5FBDFF !important}
+.contact  {display: flex; flex-direction: column; align-content: center; justify-content: center;}
+.contact>* {margin-left: auto; margin-right: auto;}
+.contact>h2 {color: #0777c7; font-size: 3rem; margin-bottom: 20px;}
+.contact>h3 {color: #7B66FF; font-size: 1.8rem; margin-bottom: 20px;}
+.contact>p {color: black; font-size: larger; font-weight: 400; margin-bottom: 20px;}
+.contact>button {height: 3rem; font-size: x-large; font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Montserrat', sans-serif; border-radius: 8px; color: black; font-weight: 400 !important; margin-bottom: 60px;}
+li {font-size: larger; font-family: Arial, Helvetica, sans-serif; font-weight: 500;}
+.ime {font-family: Arial, Helvetica, sans-serif; font-weight: 400;}
